@@ -3,6 +3,7 @@
 This image based at Ubuntu and contains:
 * ssh-client
 * rsync
+* curl
 
 ## Usage
 
@@ -17,7 +18,6 @@ image: kudlayry/deploy-tools:latest
 
 stages:
   - deploy
-
 
 deploy:
   stage: deploy
