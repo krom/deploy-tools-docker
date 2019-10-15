@@ -8,13 +8,13 @@ This image based at Ubuntu and contains:
 ## Usage
 
 ```Bash
-$ docker pull kudlayry/deploy-tools
+$ docker pull kromz/deploy-tools
 ```
 
 ## Example of .gitlab-ci.yml
 
 ```YAML
-image: kudlayry/deploy-tools:latest
+image: kromz/deploy-tools:latest
 
 stages:
   - deploy
